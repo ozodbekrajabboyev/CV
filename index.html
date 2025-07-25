@@ -1,0 +1,314 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Ozodbek Rajabboyev - PHP Backend Developer</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
+            rel="stylesheet"
+        />
+        <!-- Chosen Palette: Warm Neutrals -->
+        <!-- Application Structure Plan: A two-column layout inspired by professional document resumes. The wider left column (2/3 width) contains the main narrative content (Summary, Experience, Education) to be read top-to-bottom. The narrower right column (1/3 width) provides at-a-glance information like contact details, links, and a visual breakdown of skills. This structure is highly scannable and familiar to recruiters, making information easy to locate while maintaining a modern, clean web aesthetic. -->
+        <!-- Visualization & Content Choices:
+        - Summary/Experience/Education -> Inform -> Text Blocks & Timeline -> Static -> Placed in the primary reading column for a clear narrative flow -> Standard HTML/Tailwind CSS.
+        - Skills -> Organize/Compare -> Grouped lists with visual progress bars -> Static but visually scannable -> Replaced charts with CSS-based bars to fit the narrow column better, providing a quick visual assessment of proficiency without taking up excessive space. -> HTML/Tailwind CSS.
+        - Contact/Links -> Inform -> Icon-based links and text -> Clickable -> Grouped in the right column for easy, persistent access. -> HTML/Unicode Icons.
+    -->
+        <!-- CONFIRMATION: NO SVG graphics used. NO Mermaid JS used. -->
+        <style>
+            body {
+                font-family: "Inter", sans-serif;
+                background-color: #fdfbf8;
+                color: #4a4a4a;
+            }
+            .timeline-item::before {
+                content: "";
+                position: absolute;
+                left: -30px;
+                top: 4px;
+                width: 16px;
+                height: 16px;
+                border-radius: 50%;
+                background-color: #d6d3d1;
+                border: 3px solid #fdfbf8;
+            }
+        </style>
+    </head>
+    <body class="antialiased">
+        <main class="container mx-auto max-w-6xl px-6 py-12">
+            <!-- Main Grid Layout -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-x-12">
+                <!-- Left Column -->
+                <div class="md:col-span-2">
+                    <header class="mb-12">
+                        <h1 class="text-5xl font-bold text-stone-900">
+                            Ozodbek Rajabboyev
+                        </h1>
+                        <p class="text-2xl text-stone-600 mt-2">
+                            PHP Backend Developer
+                        </p>
+                    </header>
+
+                    <section id="summary" class="mb-12">
+                        <h2
+                            class="text-2xl font-bold text-stone-800 border-b-2 border-stone-200 pb-2 mb-4"
+                        >
+                            SUMMARY
+                        </h2>
+                        <p class="text-stone-700 leading-relaxed">
+                            A highly motivated and detail-oriented PHP and
+                            Laravel developer with a solid foundation in backend
+                            development and a passion for building dynamic,
+                            efficient, and scalable web applications. Seeking a
+                            challenging position to leverage experience in
+                            developing custom features, optimizing performance,
+                            and ensuring the seamless functionality of web
+                            applications while continuously learning and growing
+                            within a collaborative team environment.
+                        </p>
+                    </section>
+
+                    <section id="experience" class="mb-12">
+                        <h2
+                            class="text-2xl font-bold text-stone-800 border-b-2 border-stone-200 pb-2 mb-6"
+                        >
+                            EXPERIENCE
+                        </h2>
+                        <div
+                            class="relative border-l-2 border-stone-200 pl-8 space-y-10"
+                        >
+                            <div class="timeline-item relative">
+                                <h3 class="font-bold text-stone-800 text-xl">
+                                    Backend PHP Developer
+                                </h3>
+                                <p
+                                    class="text-sm leading-snug tracking-wide text-stone-600"
+                                >
+                                    April 2025 - Present | Tashkent, Uzbekistan
+                                </p>
+                            </div>
+                            <div class="timeline-item relative">
+                                <h3 class="font-bold text-stone-800 text-xl">
+                                    Teaching Mentor
+                                </h3>
+                                <p
+                                    class="text-sm leading-snug tracking-wide text-stone-600 mb-3"
+                                >
+                                    January 2024 - Present | Tashkent,
+                                    Uzbekistan
+                                </p>
+                                <p class="text-sm text-stone-700">
+                                    Provided comprehensive mentorship to a
+                                    diverse group, including over 20 students
+                                    (ages 15-18) and school faculty, in computer
+                                    programming principles, algorithmic logic,
+                                    and data structures utilizing Python and
+                                    C++.
+                                </p>
+                            </div>
+                            <div class="timeline-item relative">
+                                <h3 class="font-bold text-stone-800 text-xl">
+                                    Pixel Jobs — Backend Engineer
+                                </h3>
+                                <p
+                                    class="text-sm leading-snug tracking-wide text-stone-600 mb-3"
+                                >
+                                    July 2024 - August 2024 | Remote
+                                </p>
+                                <ul
+                                    class="list-disc list-inside text-sm text-stone-700 space-y-1"
+                                >
+                                    <li>
+                                        Designed and developed a job listing
+                                        platform using Laravel.
+                                    </li>
+                                    <li>
+                                        Improved query performance by
+                                        implementing database indexing and Redis
+                                        caching.
+                                    </li>
+                                    <li>
+                                        Ensured fast load times by optimizing
+                                        backend logic.
+                                    </li>
+                                    <li>
+                                        Designed the system for scalability to
+                                        handle high traffic.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section id="education">
+                        <h2
+                            class="text-2xl font-bold text-stone-800 border-b-2 border-stone-200 pb-2 mb-6"
+                        >
+                            EDUCATION
+                        </h2>
+                        <div class="space-y-6">
+                            <div>
+                                <h3 class="font-bold text-stone-800 text-lg">
+                                    Amity University Tashkent
+                                </h3>
+                                <p class="font-medium text-stone-600">
+                                    Information Technology
+                                </p>
+                                <p class="text-sm text-stone-500">
+                                    September 2024 - Present
+                                </p>
+                            </div>
+                            <div>
+                                <h3 class="font-bold text-stone-800 text-lg">
+                                    Amity University Tashkent
+                                </h3>
+                                <p class="font-medium text-stone-600">
+                                    International Foundation Studies
+                                </p>
+                                <p class="text-sm text-stone-500">
+                                    2023 - 2024
+                                </p>
+                            </div>
+                            <div>
+                                <h3 class="font-bold text-stone-800 text-lg">
+                                    Laracasts (laracasts.com)
+                                </h3>
+                                <p class="font-medium text-stone-600">
+                                    PHP and Laravel Development
+                                </p>
+                                <p class="text-sm text-stone-500">
+                                    January 2023 - Present
+                                </p>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+                <!-- Right Column -->
+                <div class="mt-12 md:mt-0">
+                    <section id="contact" class="mb-8">
+                        <h2
+                            class="text-xl font-bold text-stone-800 border-b-2 border-stone-200 pb-2 mb-4"
+                        >
+                            CONTACT
+                        </h2>
+                        <div class="space-y-3 text-stone-700">
+                            <p>+998-94-760-28-25</p>
+                            <p>ozodbek.rajabboyev8555@gmail.com</p>
+                            <p>Tashkent, Uzbekistan</p>
+                        </div>
+                    </section>
+
+                    <section id="links" class="mb-8">
+                        <h2
+                            class="text-xl font-bold text-stone-800 border-b-2 border-stone-200 pb-2 mb-4"
+                        >
+                            LINKS
+                        </h2>
+                        <div class="space-y-3">
+                            <a
+                                href="https://www.linkedin.com/in/ozodbek-rajabboyev"
+                                target="_blank"
+                                class="flex items-center text-stone-700 hover:text-blue-600 transition"
+                            >
+                                <span class="w-6 mr-2 text-center">●</span>
+                                LinkedIn
+                            </a>
+                            <a
+                                href="https://github.com/ozodbekrajabboyev/"
+                                target="_blank"
+                                class="flex items-center text-stone-700 hover:text-gray-800 transition"
+                            >
+                                <span class="w-6 mr-2 text-center">●</span>
+                                GitHub
+                            </a>
+                            <a
+                                href="https://t.me/ozodbek_rajabboyev_006"
+                                target="_blank"
+                                class="flex items-center text-stone-700 hover:text-sky-500 transition"
+                            >
+                                <span class="w-6 mr-2 text-center">●</span>
+                                Telegram
+                            </a>
+                        </div>
+                    </section>
+
+                    <section id="skills">
+                        <h2
+                            class="text-xl font-bold text-stone-800 border-b-2 border-stone-200 pb-2 mb-4"
+                        >
+                            SKILLS
+                        </h2>
+                        <div class="space-y-6">
+                            <div>
+                                <h3 class="font-semibold text-stone-800 mb-2">
+                                    PHP & Laravel
+                                </h3>
+                                <ul
+                                    class="text-sm text-stone-700 list-inside list-disc space-y-1"
+                                >
+                                    <li>Core OOP, SOLID, MVC</li>
+                                    <li>Eloquent ORM</li>
+                                    <li>Routing & Middleware</li>
+                                    <li>API Development (RESTful)</li>
+                                    <li>Job Queues & Event Handling</li>
+                                    <li>Caching (Redis)</li>
+                                    <li>Laravel Artisan</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <h3 class="font-semibold text-stone-800 mb-2">
+                                    Databases
+                                </h3>
+                                <ul
+                                    class="text-sm text-stone-700 list-inside list-disc space-y-1"
+                                >
+                                    <li>MySQL</li>
+                                    <li>Database Migrations</li>
+                                    <li>Query Builder</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <h3 class="font-semibold text-stone-800 mb-2">
+                                    Development & Tools
+                                </h3>
+                                <ul
+                                    class="text-sm text-stone-700 list-inside list-disc space-y-1"
+                                >
+                                    <li>Unit Testing</li>
+                                    <li>Debugging & Error Handling</li>
+                                    <li>JSON, XML</li>
+                                    <li>Git & GitHub</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <h3 class="font-semibold text-stone-800 mb-2">
+                                    Programming Languages
+                                </h3>
+                                <ul
+                                    class="text-sm text-stone-700 list-inside list-disc space-y-1"
+                                >
+                                    <li>PHP</li>
+                                    <li>Python</li>
+                                    <li>C++</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </main>
+
+        <footer class="bg-stone-100 mt-16">
+            <div
+                class="container mx-auto max-w-6xl px-6 py-4 text-center text-stone-500 text-sm"
+            >
+                <p>&copy; 2025 Ozodbek Rajabboyev. Interactive CV.</p>
+            </div>
+        </footer>
+    </body>
+</html>
