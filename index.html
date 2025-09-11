@@ -11,14 +11,6 @@
             href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
             rel="stylesheet"
         />
-        <!-- Chosen Palette: Warm Neutrals -->
-        <!-- Application Structure Plan: A two-column layout inspired by professional document resumes. The wider left column (2/3 width) contains the main narrative content (Summary, Experience, Education) to be read top-to-bottom. The narrower right column (1/3 width) provides at-a-glance information like contact details, links, and a visual breakdown of skills. This structure is highly scannable and familiar to recruiters, making information easy to locate while maintaining a modern, clean web aesthetic. -->
-        <!-- Visualization & Content Choices:
-        - Summary/Experience/Education -> Inform -> Text Blocks & Timeline -> Static -> Placed in the primary reading column for a clear narrative flow -> Standard HTML/Tailwind CSS.
-        - Skills -> Organize/Compare -> Grouped lists with visual progress bars -> Static but visually scannable -> Replaced charts with CSS-based bars to fit the narrow column better, providing a quick visual assessment of proficiency without taking up excessive space. -> HTML/Tailwind CSS.
-        - Contact/Links -> Inform -> Icon-based links and text -> Clickable -> Grouped in the right column for easy, persistent access. -> HTML/Unicode Icons.
-    -->
-        <!-- CONFIRMATION: NO SVG graphics used. NO Mermaid JS used. -->
         <style>
             body {
                 font-family: "Inter", sans-serif;
@@ -78,19 +70,42 @@
                         >
                             EXPERIENCE
                         </h2>
-                        <div
-                            class="relative border-l-2 border-stone-200 pl-8 space-y-10"
-                        >
+                        <div class="relative border-l-2 border-stone-200 pl-8 space-y-10">
                             <div class="timeline-item relative">
                                 <h3 class="font-bold text-stone-800 text-xl">
-                                    Backend PHP Developer
+                                    Junior PHP Developer
                                 </h3>
                                 <p
-                                    class="text-sm leading-snug tracking-wide text-stone-600"
+                                    class="text-sm leading-snug tracking-wide text-stone-600 mb-3"
                                 >
-                                    April 2025 - Present | Tashkent, Uzbekistan
+                                    April 2025 - Present | TrackStreet | Remote
+                                </p>
+                                <p class="text-sm text-stone-700">
+                                    Contributing to backend development tasks including building new features,
+                                    optimizing database queries, and improving scalability while following
+                                    best practices in PHP and Laravel development.
                                 </p>
                             </div>
+
+                            <div class="timeline-item relative">
+                                <h3 class="font-bold text-stone-800 text-xl">
+                                    MyExamly — Backend Developer
+                                </h3>
+                                <p
+                                    class="text-sm leading-snug tracking-wide text-stone-600 mb-3"
+                                >
+                                    2024 - Present | Tashkent, Uzbekistan
+                                </p>
+                                <ul
+                                    class="list-disc list-inside text-sm text-stone-700 space-y-1"
+                                >
+                                    <li>Developed a Laravel-based exam management system for schools.</li>
+                                    <li>Implemented features such as user roles, exam scheduling, and result tracking.</li>
+                                    <li>Optimized database queries and applied caching for faster performance.</li>
+                                    <li>Worked on authentication, authorization, and secure data handling.</li>
+                                </ul>
+                            </div>
+
                             <div class="timeline-item relative">
                                 <h3 class="font-bold text-stone-800 text-xl">
                                     Teaching Mentor
@@ -98,48 +113,13 @@
                                 <p
                                     class="text-sm leading-snug tracking-wide text-stone-600 mb-3"
                                 >
-                                    January 2024 - Present | Tashkent,
-                                    Uzbekistan
+                                    January 2024 - Present | Tashkent, Uzbekistan
                                 </p>
                                 <p class="text-sm text-stone-700">
-                                    Provided comprehensive mentorship to a
-                                    diverse group, including over 20 students
-                                    (ages 15-18) and school faculty, in computer
-                                    programming principles, algorithmic logic,
-                                    and data structures utilizing Python and
-                                    C++.
+                                    Provided comprehensive mentorship to a diverse group, including over
+                                    20 students (ages 15-18) and school faculty, in computer programming
+                                    principles, algorithmic logic, and data structures utilizing Python and C++.
                                 </p>
-                            </div>
-                            <div class="timeline-item relative">
-                                <h3 class="font-bold text-stone-800 text-xl">
-                                    Pixel Jobs — Backend Engineer
-                                </h3>
-                                <p
-                                    class="text-sm leading-snug tracking-wide text-stone-600 mb-3"
-                                >
-                                    July 2024 - August 2024 | Remote
-                                </p>
-                                <ul
-                                    class="list-disc list-inside text-sm text-stone-700 space-y-1"
-                                >
-                                    <li>
-                                        Designed and developed a job listing
-                                        platform using Laravel.
-                                    </li>
-                                    <li>
-                                        Improved query performance by
-                                        implementing database indexing and Redis
-                                        caching.
-                                    </li>
-                                    <li>
-                                        Ensured fast load times by optimizing
-                                        backend logic.
-                                    </li>
-                                    <li>
-                                        Designed the system for scalability to
-                                        handle high traffic.
-                                    </li>
-                                </ul>
                             </div>
                         </div>
                     </section>
